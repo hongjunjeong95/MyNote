@@ -40,4 +40,3 @@
 <img src="https://user-images.githubusercontent.com/92770273/146473035-1659f875-9504-40f1-b318-075b0d502315.png" alt="image" style="zoom:50%;" />
 
 `--verbose`를 추가하면 describe와 it에 대한 로그도 출력
-
