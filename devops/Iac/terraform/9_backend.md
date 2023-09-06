@@ -15,7 +15,7 @@
   * AWS S3 Backend(with / without DynamoDB)
     * with DynamoDB : lock 기능 제공
     * without DynamoDB : lock 기능 제공 안함
-* Locking : 테라폼 상세 파일을 원격으로 협업할 때, 동시성 이슈가 생길 수 있다. 이것을 막아주는 것이 locking이다. 한 명이 작업할 때 lock을 걸어서 다르사람이 apply를 하지 못 하도록 한다.
+* Locking : 테라폼 상세 파일을 원격으로 협업할 때, 동시성 이슈가 생길 수 있다. 이것을 막아주는 것이 locking이다. 한 명이 작업할 때 lock을 걸어서 다른 사람이 apply를 하지 못 하도록 한다.
 
 ## Local State
 

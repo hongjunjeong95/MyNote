@@ -12,7 +12,7 @@
 
 #### Remote
 
-Terraform cloudd 인프라에 위치한 테라폼 명령어를 실행시키는 terraform runner가 있다.
+Terraform cloud 인프라에 위치한 테라폼 명령어를 실행시키는 terraform runner가 있다.
 
 테라폼 명령어를 remote로 실행하는 것에서 주의사항이 있다. 테라폼 코드가 인트라넷에 속한 작업자 pc에 있다면 terraform runner가 인트라넷에 위치한 리소스에 접근할 수 있도록 채널을 열어주는 작업을 해줘야 하기 때문이다.
 

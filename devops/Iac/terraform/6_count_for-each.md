@@ -72,7 +72,7 @@ count로 user를 생성했다. 그 후 직원이 퇴사할 경우 user를 삭제
 ## for_each
 
 ```json
-/*
+ /*
  * for_each
  */
 
