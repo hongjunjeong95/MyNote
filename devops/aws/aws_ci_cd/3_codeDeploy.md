@@ -113,8 +113,6 @@ EC2가 S3에 접근할 수 있는 role 부착
 
 ## Create CodeDeploy-app
 
-<img src="/Users/hongjun/Library/Application Support/typora-user-images/image-20211210115842241.png" alt="image-20211210115842241" style="zoom:50%;" />
-
 **Applications** 선택
 
 ![image](https://user-images.githubusercontent.com/33750210/145509822-f7a582a4-079e-4058-866a-cbf7c959dc4a.png)

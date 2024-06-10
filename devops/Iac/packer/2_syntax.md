@@ -9,7 +9,7 @@
 * locals : 지역변수
 * variable : 입력 변수
 * packer(=terraform) : 의존성과 버전 설정
-* data : 데이터소스
+* data : 데이터 소스
 * source : 이미지 소스
 * build : 이미지 빌드
 

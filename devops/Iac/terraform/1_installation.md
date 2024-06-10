@@ -51,7 +51,7 @@ you can auto complete terraform command `terraform + tab`
 
 * https://www.terraform.io/docs/cli/config/config-file.htmlhttps://www.terraform.io/docs/cli/config/config-file.html
 
-Add `plugin_cache_dir   = "$HOME/.terraform.d/plugin-cache"` to `~/.terraformrc`
+Add `plugin_cache_dir = "$HOME/.terraform.d/plugin-cache"` to `~/.terraformrc`
 
 Create directory
 

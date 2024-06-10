@@ -49,3 +49,16 @@
 1. git rm -r —cached .
 2. git add .
 3. git commit -m "~~~"
+
+
+
+## ec2 git pull permission error
+
+------
+
+> error: cannot open .git/FETCH_HEAD: Permission denied
+
+```sh
+$ sudo chown -R $User .git/
+```
+

@@ -8,7 +8,7 @@ post-processors는 post-processor를 sequential하게 가진다.
 
 ## 패커 동작 순서
 
-패키 => 빌드 => 산출물(Artifact) - image나 manifest file 등 => post-processor => 산출물
+패커 => 빌드 => 산출물(Artifact) - image나 manifest file 등 => post-processor => 산출물
 
 ## 많이 사용되는 post-processor
 

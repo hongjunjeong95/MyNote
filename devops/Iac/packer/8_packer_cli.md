@@ -13,3 +13,4 @@
 * `packer fix` : 패커가 버전 업데이트가 되면서 패커 문법이 조금씩 개선이 되는데 그것을 자동으로 고쳐줌
 * `packer hcl2_upgrade` : JSON 템플릿으로 사용하던 패커를 HCL 코드로 바꿔줌
 * `packer console` : 패커에서 쓰이고 있는 HCL 문법을 간단하게 expression으로 테스트해볼 수 있다.
+* `packer build -debug .` : 패커로 디버깅 한다.

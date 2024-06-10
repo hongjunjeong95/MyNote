@@ -9,7 +9,6 @@ provider "aws" {
   region = "ap-northeast-2"
 }
 
-
 /*
  * Conditional Expression
  * Condtion ? If_True : If_False
@@ -50,4 +49,4 @@ resource "aws_internet_gateway" "this" {
 }
 ```
 
-count와 3항 연산자를 이용해서 resource를 생성하거나 생성하지 않을 수 있다. `internet_gateway_enabled`가 `true`면 IGW를 생성하거 `false`면 IGW를 생성하지 않는다.
+count와 3항 연산자를 이용해서 resource를 생성하거나 생성하지 않을 수 있다. `internet_gateway_enabled`가 `true`면 IGW를 생성하고 `false`면 IGW를 생성하지 않는다.

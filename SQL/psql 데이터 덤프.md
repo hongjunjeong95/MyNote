@@ -6,7 +6,7 @@
 # 데이터베이스 덤프
 $ pg_dump -h <host> -U <username> -d <db_name> -W -f <name>.sql
 
-# 덤프 파일 실행
+# 덤프 파일 실행 방법1
 psql \
 -f mydb2dump.sql \
 --host localhost \
@@ -14,6 +14,9 @@ psql \
 --username myawsuser \
 --password password \
 --dbname mydb
+
+# 덤프 파일 실행 방법2
+pg_restore -h localhost -p 5432 -U <username> -d <db_name> ../<dump_file_name>.dump
 ```
 
 ### 실행 예제

@@ -18,7 +18,7 @@ Terraform cloud 인프라에 위치한 테라폼 명령어를 실행시키는 te
 
 * Apply Method : Terraform plan이 성공했을 때 자동으로 apply를 할지 말지 선택
 * Terraform Version 선택
-* Terraform Working Directory 설정 : 현재 작업 중인 Git 레포지토리 전체를 테라폼 클라우드 runner에 업로드하게 된다. 그래서 레포지토리 상에서 어던 working directory에서 작업 중이냐고 설정해줘야 한다.
+* Terraform Working Directory 설정 : 현재 작업 중인 Git 레포지토리 전체를 테라폼 클라우드 runner에 업로드하게 된다. 그래서 레포지토리 상에서 어떤 working directory에서 작업 중이냐고 설정해줘야 한다.
 
 **Run** 탭에서 execution log를 확인할 수 있다.
 

@@ -64,9 +64,9 @@ docker exec openvpn show-client-config > fastcampus.ovpn
 
 4.  `cat /var/log/cloud-init-output.log`를 통해서 도커가 이미지를 잘 가져왔는지 확인 가능
 
-5. cat fastcampus.ovpn
+5. `cat fastcampus.ovpn`
 
-   1. 해당 값 복사
+   1. 해당 값 마우스 드래그로 복사
 
 6. local pc로 오기
 

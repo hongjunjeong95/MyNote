@@ -48,7 +48,7 @@ terraform {
     organization = "<org name>"
 
     workspaces {
-      name = "<workspace name>"
+      name = "<workspace name>" 
     }
   }
 }
