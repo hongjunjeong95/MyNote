@@ -14,7 +14,7 @@
 
 ### Static
 
-* 
+* 하단 인벤토리 기본은 정적 인벤토리다.
 
 ### Dynamic
 
@@ -61,6 +61,8 @@ ubuntu2 ansible_host=ec2-13-209-20-108.ap-northeast-2.compute.amazonaws.com ansi
 amazon
 ubuntu
 ```
+
+인벤토리는 확장자가 존재하지 않는다. 그냥 `.inv`로 컨벤션을 한다.
 
 * amazon.inv : 인스턴스의 ip를 추가
 * ubuntu.inv : 인스턴스의 도메인을 추가

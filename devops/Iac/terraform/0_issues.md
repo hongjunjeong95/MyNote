@@ -11,7 +11,20 @@
 
 ## Error: Failed to install provider
 
-MAC M1 : `terraform providers lock -platform=darwin_amd64`
+M1 Mac은 darwin64 os를 사용한다. 그래서 간혹 terraform에서 지원하는 기능을 못 쓸 때가 있는데, 이를 해결해주는 방법을 알려주겠다.
+
+1. `.terraform.lock.hcl`파일과 `.terraform` 폴더 삭제
+
+2. 아래 명령어 실행
+
+   ```sh
+   brew install kreuzwerker/taps/m1-terraform-provider-helper
+   terraform providers lock -platform=darwin_amd64
+   m1-terraform-provider-helper activate
+   m1-terraform-provider-helper install hashicorp/template -v v2.2.0
+   ```
+
+## 
 
 ## Invalid legacy provider address
 
